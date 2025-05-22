@@ -1,0 +1,123 @@
+:root{
+  /*------------------ brand colors------------------------*/
+  --brand-light:#59B2FF;
+  --brand-mid: #3487CF;
+  --brand-dark: #1D6FB6;
+
+  /*-----------------Acent colors---------------------------------*/
+
+  --purple:#B259FF;
+  --fuschia:#FF59F9;
+  --pink:#FF598B;
+  --orange:#FF8B59; 
+  --yellow:#FFCD59;
+  --lime:#E1FF59;
+  --green:#59FF91;
+  --cyan:#59FFF9;
+  --navy:#6A59FF;
+
+  --danger:#FF5959;
+
+  /*------------------------------input------------------------------------*/
+  --input-base:#1C1F21;
+ --input-stroke:#363B40;
+ --input-placeholder:#869198;
+
+ /*--------------------------------Shape-------------------------------*/
+ --shape-background:#131516;
+ --shape-body:#212427;
+ --shape-button:#2D3136;
+ --shape-hover:#383D42;
+
+ /*----------------------------text-----------------------------------*/
+ --text-body:#C8CDD0;
+ --text-heading:#F9F9F9;
+
+
+ 
+}
+
+.color-blue{
+  width: 28px;
+  height: 28px;
+  background-color: var(--brand-light);
+  border-radius: 999px;
+}
+.color-navy{
+  width: 28px;
+  height: 28px;
+  background-color: var(--navy);
+  border-radius: 999px;
+}
+
+.color-purple{
+  width: 28px;
+  height: 28px;
+  background-color: var(--purple);
+  border-radius: 999px;
+}
+
+.color-fuschia{
+  width: 28px;
+  height: 28px;
+  background-color: var(--fuschia);
+  border-radius: 999px;
+}
+
+.color-pink{
+  width: 28px;
+  height: 28px;
+  background-color: var(--pink);
+  border-radius: 999px;
+}
+
+.color-danger{
+  width: 28px;
+  height: 28px;
+  background-color: var(--danger);
+  border-radius: 999px;
+}
+
+.color-orange{
+  width: 28px;
+  height: 28px;
+  background-color: var(--orange);
+  border-radius: 999px;
+}
+
+.color-yellow{
+  width: 28px;
+  height: 28px;
+  background-color: var(--yellow);
+  border-radius: 999px;
+}
+
+.color-lime{
+  width: 28px;
+  height: 28px;
+  background-color: var(--lime);
+  border-radius: 999px;
+}
+
+.color-green{
+  width: 28px;
+  height: 28px;
+  background-color: var(--green);
+  border-radius: 999px;
+}
+.color-cyan{
+  width: 28px;
+  height: 28px;
+  background-color: var(--cyan);
+  border-radius: 999px;
+}
+
+.enroll-option-colors .radio-wrapper{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: auto;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  
+}
