@@ -27,7 +27,7 @@
  --shape-background:#131516;
  --shape-body:#212427;
  --shape-button:#2D3136;
- --shape-hover:#383D42;
+ --shape-hover:#515457;
 
  /*----------------------------text-----------------------------------*/
  --text-body:#C8CDD0;
@@ -37,87 +37,117 @@
  
 }
 
-.color-blue{
-  width: 28px;
-  height: 28px;
-  background-color: var(--brand-light);
-  border-radius: 999px;
-}
-.color-navy{
-  width: 28px;
-  height: 28px;
-  background-color: var(--navy);
-  border-radius: 999px;
-}
-
-.color-purple{
-  width: 28px;
-  height: 28px;
-  background-color: var(--purple);
-  border-radius: 999px;
-}
-
-.color-fuschia{
-  width: 28px;
-  height: 28px;
-  background-color: var(--fuschia);
-  border-radius: 999px;
-}
-
-.color-pink{
-  width: 28px;
-  height: 28px;
-  background-color: var(--pink);
-  border-radius: 999px;
-}
-
-.color-danger{
-  width: 28px;
-  height: 28px;
-  background-color: var(--danger);
-  border-radius: 999px;
-}
-
-.color-orange{
-  width: 28px;
-  height: 28px;
-  background-color: var(--orange);
-  border-radius: 999px;
-}
-
-.color-yellow{
-  width: 28px;
-  height: 28px;
-  background-color: var(--yellow);
-  border-radius: 999px;
-}
-
-.color-lime{
-  width: 28px;
-  height: 28px;
-  background-color: var(--lime);
-  border-radius: 999px;
-}
-
-.color-green{
-  width: 28px;
-  height: 28px;
-  background-color: var(--green);
-  border-radius: 999px;
-}
-.color-cyan{
-  width: 28px;
-  height: 28px;
-  background-color: var(--cyan);
-  border-radius: 999px;
-}
-
-.enroll-option-colors .radio-wrapper{
+.radio-wrapeer-colors{
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  gap: auto;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 34px));
+  grid-template-rows: repeat(auto-fit, minmax(20px, 28px));
   justify-content: space-between;
-  align-items: center;
-  justify-items: center;
+  padding-inline: 10px;
   
+  
+  .radio-inner{ 
+    position: relative;
+    
+    &:hover, &:focus-within{
+      border: 3px solid  var(--shape-hover);
+      border-radius: 1000px;
+    }
+    &:has(:checked){
+      align-items: center;
+      justify-items: center;
+      align-self: center;
+       border: 3px solid var(--brand-light);
+       border-radius: 1000px;
+    }
+
+    & input,
+    & input:focus,
+    & input:hover{
+      all: unset;
+      position: absolute;
+      inset: 0;
+    }
+
+   
+  }
+      
+  .color-blue{
+    width: 28px;
+    height: 28px;
+    background-color: var(--brand-light);
+    border-radius: 999px;
+  }
+
+  .color-navy{
+    width: 28px;
+    height: 28px;
+    background-color: var(--navy);
+    border-radius: 999px;
+    }
+
+  .color-purple{
+    width: 28px;
+    height: 28px;
+    background-color: var(--purple);
+    border-radius: 999px;
+    }
+
+  .color-fuschia{
+    width: 28px;
+    height: 28px;
+    background-color: var(--fuschia);
+    border-radius: 999px;
+    }
+
+  .color-pink{
+    width: 28px;
+    height: 28px;
+    background-color: var(--pink);
+    border-radius: 999px;
+    }
+
+  .color-danger{
+    width: 28px;
+    height: 28px;
+    background-color: var(--danger);
+    border-radius: 999px;
+    }
+
+  .color-orange{
+    width: 28px;
+    height: 28px;
+    background-color: var(--orange);
+    border-radius: 999px;
+    }
+
+  .color-yellow{
+    width: 28px;
+    height: 28px;
+    background-color: var(--yellow);
+    border-radius: 999px;
+    }
+
+  .color-lime{
+    width: 28px;
+    height: 28px;
+    background-color: var(--lime);
+    border-radius: 999px;
+    }
+
+  .color-green{
+    width: 28px;
+    height: 28px;
+    background-color: var(--green);
+    border-radius: 999px;
+    }
+  .color-cyan{
+    width: 28px;
+    height: 28px;
+    background-color: var(--cyan);
+    border-radius: 999px;
+  }
 }
+  
+
+
+

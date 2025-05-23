@@ -1,12 +1,39 @@
-.app{
+#app{
   display: grid;
-  grid-template-columns: 400px 820px;
-  column-gap: 50px;
+  grid-template-columns: 400px 820px;   
+  border: 3px solid var(--danger);
   overflow: hidden;
-  padding: 20px 20px 0px 20px;
-  background-color: var(--shape-body);
+}
+  
+main{
+  
+  padding-top: 20px;
+  padding-inline: 130px;
+  height: 700px;
+  overflow-y: scroll;
+  & .main-container{   
+    max-width: 33rem;
+    margin-left: auto;
+      
+  }
+}
+
+
+  
+   .aside-container{
+    & aside{
+    
+    background-image:url(../assets/imagem/Background.png);
+    height: 728px; 
+    background-size: cover; 
+    padding-inline: 36px;
+    padding-top: 32px;
+  }
   
 }
+
+
+
 
 
 

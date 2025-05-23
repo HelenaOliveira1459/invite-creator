@@ -1,1 +1,7 @@
-
+ 
+.mensagem-erro{
+  color: var(--danger);
+  font-size: 0.9rem;
+  margin-top: 5px;
+  display: none; /*mantem a mensagem escondida até dar erro*/
+}

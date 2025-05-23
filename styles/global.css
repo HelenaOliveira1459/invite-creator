@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body{
+  max-width: 1220px;
+  background-color: var(--shape-body);
+  overflow: hidden;
+}
 
 

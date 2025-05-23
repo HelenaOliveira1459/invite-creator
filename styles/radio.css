@@ -1,0 +1,54 @@
+.radio-wrapper-events{
+  display: grid;
+  grid-template-columns: repeat(4, 134px);
+  grid-template-rows: repeat(auto-fit, 126px);
+  justify-content: start;
+  padding-inline: 10px;
+  gap: 1rem;
+
+  .radio-inner{
+    display: grid;   
+    align-content: start;
+    border: 2px solid var(--shape-hover);
+    border-radius: 8px; 
+    display: grid;
+    gap: .5rem;
+    padding: .5rem .5rem;
+    position: relative;
+    .radio-image{
+      background-size:80%;
+      background-position:center;     
+      height: 64px;                      
+    }
+    &:hover, &:focus-within{
+      border: 3px solid  var(--shape-hover);
+      border-radius: 10px;
+    }
+    &:has(:checked){      
+      border: 3px solid var(--brand-light);
+      border-radius: 10px;
+    }
+
+    & input,
+    & input:focus,
+    & input:hover{
+      all: unset;
+      position: absolute;
+      inset: 0;
+    }
+
+  }
+}
+
+.aniversario{background-image:url(../assets/imagem/birthday.jpg) ;}
+.infantil{background-image:url(../assets/imagem/infantil.jpg) ;}
+.formatura{background-image:url(../assets/imagem/formatura.jpg) ;}
+.casamento{background-image:url(../assets/imagem/casamento.jpg) ;}
+.baby{background-image:url(../assets/imagem/baby.jpg) ;}
+.panela{background-image:url(../assets/imagem/panela.jpg) ;}
+.carnaval{background-image:url(../assets/imagem/carnaval.jpg) ;}
+.pascoa{background-image:url(../assets/imagem/pascoa.jpg) ;}
+.halloween{background-image:url(../assets/imagem/halloween.jpg) ;}
+.junina{background-image:url(../assets/imagem/junina.jpg) ;}
+.natal{background-image: url(../assets/imagem/christmaas.jpg);}
+.outro{background-image:url(../assets/imagem/outro.jpg) ;}
